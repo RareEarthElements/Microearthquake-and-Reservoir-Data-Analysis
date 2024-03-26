@@ -30,7 +30,7 @@ The goal of this project is to performing MEQ catalogue data quality control, de
    - According to the visualization of WHP against the total daily MEQ events, the intensity of the microseismicity started to increase after the first quarter of 2022 and increased dramatically in the first quarter of 2023. This is inline with ML D1 and ML E2 wellhead pressures being fully minimalized, while ML E1 was increased and ML D2 reduced and maintained in the 7-17 barg range.
 
 # Recommendation
-   1. Combined microseismic analysis with reservoir operational data is more comprehensive when both datasets have the same data availability date. In this case, MEQ and reservoir data are only synchronised from 1 January 2021 to 29 May 2023. If possible, reservoir operational data should be available from December 2019 to December 2020 and from 30 May 2023 to the present.
+   1. Combined microseismic analysis with reservoir operational data will be more comprehensive when both datasets have the same data availability date. In this case, MEQ and reservoir data are only synchronised from 1 January 2021 to 29 May 2023. If possible, reservoir operational data should be available from December 2019 to December 2020 and from 30 May 2023 to the present.
 
    2. In order to identify which features influence the occurrence of daily microseismic events, the application of machine learning methods with tree-based models for feature-of-importance analysis can be helpful.
    
