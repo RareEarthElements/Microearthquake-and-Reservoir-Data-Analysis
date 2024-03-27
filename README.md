@@ -33,11 +33,15 @@ The goal of this project is to performing MEQ catalogue data quality control, de
 
 ### 1. Establishing Discrete Fracture Network (DFN) for numerical simulation ###
 
-Microseismic data can be used to construct a fracture model and the fracture size modified using scaling factors. The scaling factors are then used as history matching parameters to account for uncertainty in the fracture model. By implementing the workflow proposed by AlQassab et al. (2020), fracture properties such as dip angle, direction, fracture half-length and fracture height can be predicted and the fracture model will have to be calibrated with production data. Establishing the outcome to build a discrete fracture network based on microseismic events would lead to several applications, such as performing reservoir production simulations (AlQassab et al., 2020; Li et al., 2022; Bachi et al., 2023; Sun et al., 2024). A novel approach proposed by Sun et al. (2024) used a hydraulic fracture model constructed from microseismic data and performed numerical simulation using the detailed parameters of the geothermal reservoir. The effective and confirmatory numerical simulation technique associated with the discrete fracture network constructed based on microseismicity data will help to estimate the power output for specific years based on the P10/P50/P90 scenario and describe the geothermal resource potential in MWe. 
+The effective and confirmatory numerical simulation technique associated with the discrete fracture network constructed based on microseismicity data will help to estimate the power output for specific years based on the P10/P50/P90 scenario and describe the geothermal resource potential in MWe. 
 
-### 2. Identifying permeable zone ###
+### 2. Identifying fluid path ###
+
+Induced seismicity recorded due to fault reactivation that produces a swarm of fractures, will show the orientation of the fractures. For example, in our cases, a cluster of microseismic events described in ENE-WSW, this cluster could be aligned with structural trends, indicating that the events could be correlated with these structures. If so, this structure is favourable for geothermal fluid flow.
 
 ### 3. Assisting well targeting ###
+
+The information from microseismicity would help to determine the permeable zone of the geothermal area, as well as the reservoir connectivity, which could help to locate injection and production wells.
 
 # Recommendation
    1. Combined microseismic analysis with reservoir operational data will be more comprehensive when both datasets have the same data availability date. In this case, MEQ and reservoir data are only synchronised from 1 January 2021 to 29 May 2023. If possible, reservoir operational data should be available from December 2019 to December 2020 and from 30 May 2023 to the present.
