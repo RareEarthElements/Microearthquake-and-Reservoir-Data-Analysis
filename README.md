@@ -27,7 +27,7 @@ The goal of this project is to performing MEQ catalogue data quality control, de
 ### 4. Integrated MEQ and Reservoir Data Analysis ###
    - The temperature of reinjected fluids and the amount of reinjected fluids follow a similar trend and tend to correlate positively.
    - By plotting the injection rate and injection temperature of all wells against the total daily MEQ events from January 2021 to May 2023, it is not very clear that there is a relationship between these two reservoir operating parameters and increased microseismic events.
-   - According to the visualization of WHP against the total daily MEQ events, the intensity of the microseismicity started to increase after the first quarter of 2022 and increased dramatically in the first quarter of 2023. This is inline with ML D1 and ML E2 wellhead pressures being fully minimalized, while ML E1 was increased and ML D2 reduced and maintained in the 7-17 barg range.
+   - According to the visualization of WHP against the total daily MEQ events, the intensity of the microseismicity started to increase after the first quarter of 2022 and increased dramatically in the first quarter of 2023. This is inline with ML D1 and ML E2 wellhead pressures being fully minimalized, while ML E1 was increased and ML D2 was reduced and maintained in the 7-17 barg range.
 
 # Business Implementation
 
