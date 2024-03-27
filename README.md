@@ -29,6 +29,16 @@ The goal of this project is to performing MEQ catalogue data quality control, de
    - By plotting the injection rate and injection temperature of all wells against the total daily MEQ events from January 2021 to May 2023, it is not very clear that there is a relationship between these two reservoir operating parameters and increased microseismic events.
    - According to the visualization of WHP against the total daily MEQ events, the intensity of the microseismicity started to increase after the first quarter of 2022 and increased dramatically in the first quarter of 2023. This is inline with ML D1 and ML E2 wellhead pressures being fully minimalized, while ML E1 was increased and ML D2 reduced and maintained in the 7-17 barg range.
 
+# Business Implementation
+
+### 1. Establishing Discrete Fracture Network (DFN) for numerical simulation ###
+
+Microseismic data can be used to construct a fracture model and the fracture size modified using scaling factors. The scaling factors are then used as history matching parameters to account for uncertainty in the fracture model. By implementing the workflow proposed by AlQassab et al. (2020), fracture properties such as dip angle, direction, fracture half-length and fracture height can be predicted and the fracture model will have to be calibrated with production data. Establishing the outcome to build a discrete fracture network based on microseismic events would lead to several applications, such as performing reservoir production simulations (AlQassab et al., 2020; Li et al., 2022; Bachi et al., 2023; Sun et al., 2024). A novel approach proposed by Sun et al. (2024) used a hydraulic fracture model constructed from microseismic data and performed numerical simulation using the detailed parameters of the geothermal reservoir. The effective and confirmatory numerical simulation technique associated with the discrete fracture network constructed based on microseismicity data will help to estimate the power output for specific years based on the P10/P50/P90 scenario and describe the geothermal resource potential in MWe. 
+
+### 2. Identifying permeable zone ###
+
+### 3. Assisting well targeting ###
+
 # Recommendation
    1. Combined microseismic analysis with reservoir operational data will be more comprehensive when both datasets have the same data availability date. In this case, MEQ and reservoir data are only synchronised from 1 January 2021 to 29 May 2023. If possible, reservoir operational data should be available from December 2019 to December 2020 and from 30 May 2023 to the present.
 
